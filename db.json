@@ -1,0 +1,264 @@
+{
+"alphabet": [
+   {
+        "Letter": "A",
+        "Word": "Apple",
+        "Photo": "images/apple.jpg",
+        "AltText": "Red apple",
+        "RelatedWords": [
+            "Avocado",
+            "Ace"
+        ]
+    },
+    {
+        "Letter": "B",
+        "Word": "Boat",
+        "Photo": "images/boat.jpg",
+        "AltText": "Orange sailboat on water",
+        "RelatedWords": [
+            "Banana",
+            "Book"
+        ]
+    },
+    {
+        "Letter": "C",
+        "Word": "Carrot",
+        "Photo": "images/carrot.jpg",
+        "AltText": "Carrot with green stem",
+        "RelatedWords": [
+            "Crate",
+            "Clean"
+        ]
+    },
+    {
+        "Letter": "D",
+        "Word": "Dog",
+        "Photo": "images/dog.jpg",
+        "AltText": "Gray dog with black ears",
+        "RelatedWords": [
+            "Dark",
+            "Domino"
+        ]
+    },
+    {
+        "Letter": "E",
+        "Word": "Elephant",
+        "Photo": "images/elephant.jpg",
+        "AltText": "Gray elephant",
+        "RelatedWords": [
+            "Eagle",
+            "Ear"
+        ]
+    },
+    {
+        "Letter": "F",
+        "Word": "Frog",
+        "Photo": "images/frog.jpg",
+        "AltText": "Green frog",
+        "RelatedWords": [
+            "Fight",
+            "Fresh"
+        ]
+    },
+    {
+        "Letter": "G",
+        "Word": "Guitar",
+        "Photo": "images/guitar.jpg",
+        "AltText": "Brown guitar",
+        "RelatedWords": [
+            "Giraffe",
+            "Green"
+        ]
+    },
+    {
+        "Letter": "H",
+        "Word": "Hat",
+        "Photo": "images/hat.jpg",
+        "AltText": "Black top hat",
+        "RelatedWords": [
+            "Helicopter",
+            "Heart"
+        ]
+    },
+    {
+        "Letter": "I",
+        "Word": "Icecream",
+        "Photo": "images/icecream.jpg",
+        "AltText": "Icecream in a blue bowl",
+        "RelatedWords": [
+            "Island",
+            "Icky"
+        ]
+    },
+    {
+        "Letter": "J",
+        "Word": "Jewel",
+        "Photo": "images/jewel.jpg",
+        "AltText": "Blue jewel",
+        "RelatedWords": [
+            "Jungle",
+            "Jazz"
+        ]
+    },
+    {
+        "Letter": "K",
+        "Word": "Kite",
+        "Photo": "images/kite.jpg",
+        "AltText": "Blue kite with purple string",
+        "RelatedWords": [
+            "Key",
+            "King"
+        ]
+    },
+    {
+        "Letter": "L",
+        "Word": "Ladybug",
+        "Photo": "images/ladybug.jpg",
+        "AltText": "Lady bug with seven spots",
+        "RelatedWords": [
+            "Lighthouse",
+            "Lion"
+        ]
+    },
+    {
+        "Letter": "M",
+        "Word": "Monkey",
+        "Photo": "images/monkey.jpg",
+        "AltText": "Monkey sitting with curled tail",
+        "RelatedWords": [
+            "Mountain",
+            "Mirror"
+        ]
+    },
+    {
+        "Letter": "N",
+        "Word": "Night",
+        "Photo": "images/night.jpg",
+        "AltText": "Building at night with moon and stars",
+        "RelatedWords": [
+            "Nest",
+            "North"
+        ]
+    },
+    {
+        "Letter": "O",
+        "Word": "Orange",
+        "Photo": "images/orange.jpg",
+        "AltText": "Orange fruit with green leaf",
+        "RelatedWords": [
+            "Octopus",
+            "Ocean"
+        ]
+    },
+    {
+        "Letter": "P",
+        "Word": "Pig",
+        "Photo": "images/pig.jpg",
+        "AltText": "Pink pig face",
+        "RelatedWords": [
+            "Pizza",
+            "Park"
+        ]
+    },
+    {
+        "Letter": "Q",
+        "Word": "Queen",
+        "Photo": "images/queen.jpg",
+        "AltText": "Crown with jewels",
+        "RelatedWords": [
+            "Quilt",
+            "Question"
+        ]
+    },
+    {
+        "Letter": "R",
+        "Word": "Rat",
+        "Photo": "images/rat.jpg",
+        "AltText": "Gray rat with pink tail",
+        "RelatedWords": [
+            "Rain",
+            "Rocket"
+        ]
+    },
+    {
+        "Letter": "S",
+        "Word": "Snake",
+        "Photo": "images/snake.jpg",
+        "AltText": "Green snake with red tongue",
+        "RelatedWords": [
+            "Sun",
+            "Stir"
+        ]
+    },
+    {
+        "Letter": "T",
+        "Word": "Tiger",
+        "Photo": "images/tiger.jpg",
+        "AltText": "Gold tiger face with black stripes",
+        "RelatedWords": [
+            "Tree",
+            "Train"
+        ]
+    },
+    {
+        "Letter": "U",
+        "Word": "Umbrella",
+        "Photo": "images/umbrella.jpg",
+        "AltText": "Purple umbrella",
+        "RelatedWords": [
+            "Unicorn",
+            "Universe"
+        ]
+    },
+    {
+        "Letter": "V",
+        "Word": "Vest",
+        "Photo": "images/vest.jpg",
+        "AltText": "Orange and yellow vest",
+        "RelatedWords": [
+            "Volcano",
+            "Valley"
+        ]
+    },
+    {
+        "Letter": "W",
+        "Word": "Watch",
+        "Photo": "images/watch.jpg",
+        "AltText": "Black wrist watch",
+        "RelatedWords": [
+            "Wave",
+            "Wind"
+        ]
+    },
+    {
+        "Letter": "X",
+        "Word": "X",
+        "Photo": "images/x.jpg",
+        "AltText": "Black 'X'",
+        "RelatedWords": [
+            "Xylophone",
+            "X-ray"
+        ]
+    },
+    {
+        "Letter": "Y",
+        "Word": "Yolk",
+        "Photo": "images/yolk.jpg",
+        "AltText": "Egg with yellow yolk in pan",
+        "RelatedWords": [
+            "Yellow",
+            "Yarn"
+        ]
+    },
+    {
+        "Letter": "Z",
+        "Word": "Zebra",
+        "Photo": "images/zebra.jpg",
+        "AltText": "Black and white zebra face",
+        "RelatedWords": [
+            "Zoo",
+            "Zombie"
+        ]
+    }
+]
+}
