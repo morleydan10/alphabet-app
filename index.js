@@ -2,6 +2,16 @@ fetch("http://localhost:3000/alphabet")
 .then((res) => res.json())
 .then((data) => {
     console.log(data)
-// for (i=0; i < data.length; i++);
+data.forEach(letter => {
+    renderLetters(letter);
+});;
 });
 
+function renderLetters(letters) {
+    let letterList = document.getElementById("list-of-letters")
+
+    let letter = document.createElement('li')
+    letter.textContent = letters.Letter
+
+    letterList.append(letter);
+};
