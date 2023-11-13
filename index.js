@@ -12,6 +12,11 @@ function renderLetters(letters) {
 
     let letter = document.createElement('li')
     letter.textContent = letters.Letter
-
+    letter.addEventListener('click', (e) => {
+        e.preventDefault();
+        letter.style.textDecoration = "line-through";
+    });
     letterList.append(letter);
-};
+    };
+
+    
