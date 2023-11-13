@@ -10,12 +10,26 @@ body {
     background-color: #EADAA2;
     font-family: Verdana, sans-serif;
   }
-  
-  #listofletters {
-    display: flex;
-    flex-direction: column
-    /* list-style-type: none */
+
+  #title-div {
+    font-weight: 400px;
+    font-family: Georgia, serif;
+    font-size: 65px;
+    letter-spacing: 2px;
   }
+  
+  #list-of-letters {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Georgia, serif;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 15px;
+  }
+
+  
   .photo-container,
   .text-container {
     max-width: 80%;
