@@ -8,25 +8,26 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #EADAA2;
-    font-family: Verdana, sans-serif;
+    font-family: Schoolbell;
   }
 
   #title-div {
     font-weight: 400px;
-    font-family: Georgia, serif;
-    font-size: 65px;
-    letter-spacing: 2px;
+    font-family: Schoolbell;
+    font-size: 70px;
+    letter-spacing: 4px;
   }
   
   #list-of-letters {
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
-    font-family: Georgia, serif;
+    font-family: Schoolbell;
     list-style-type: none;
     font-weight: bold;
-    font-size: 50px;
-    letter-spacing: 15px;
+    font-size: 60px;
+    letter-spacing: 30px;
+
   }
 
   
@@ -44,7 +45,7 @@ body {
   }
   
   .centered-text {
-    font-family: Georgia, serif;
+    font-family: Schoolbell;
     width: 100%;
     height: auto;
     display: block;
