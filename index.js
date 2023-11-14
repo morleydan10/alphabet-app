@@ -1,4 +1,7 @@
 let formRendered = false;
+document.querySelector('#related-word-list').style.display = 'none';
+document.querySelector('#word-div').style.display = 'none';
+document.querySelector('#display-letter').style.display = 'none';
 
 fetch("http://localhost:3000/alphabet")
     .then((res) => res.json())
@@ -58,6 +61,10 @@ function renderDisplay(letter) {
             let index = e.keyCode - 97;
 
             if (index >= 0 && index <= 25) {
+                document.querySelector('#related-word-list').style.display = 'flex';
+                document.querySelector('#word-div').style.display = 'flex';
+                document.querySelector('#display-letter').style.display = 'flexsdds';
+
                 let photo = document.querySelector('img');
                 let word = document.querySelector('h3');
                 let displayLetter = document.querySelector('.display-letter');
