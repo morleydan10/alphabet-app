@@ -15,9 +15,13 @@ body {
   #title-div {
     font-weight: 400px;
     font-family: Georgia, serif;
-    font-size: 65px;
+    font-size: 35px;
     letter-spacing: 2px;
     color: #241E4E;
+  }
+
+  h1 {
+    margin: 5px;
   }
   
   #list-of-letters {
@@ -27,9 +31,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     font-weight: bold;
-    font-size: 40px;
-    letter-spacing: 15px;
+    font-size: 25px;
+    letter-spacing: 8px;
     color: #241E4E;
+    cursor: pointer;
+  }
+
+  h2 {
+    margin: 0;
   }
 
   
@@ -150,16 +159,12 @@ body {
 
 
   .button-on-image {
-    position: absolute;
-    top: -1%;
-    right: 34%; /* Adjust the right distance as needed */
-    transform: translateY(-50%);
     padding: 10px;
     background-color: #6fd08c;
     color:  #241E4E;
     border: none;
     cursor: pointer;
     font-family: Verdana, sans-serif;
-    border: 6px solid #241E4E;
+    border: 4px solid #241E4E;
     border-radius: 6px;
 }
