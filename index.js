@@ -1,19 +1,22 @@
 let formRendered = false;
+let submitedWord = false;
 document.querySelector('#related-word-list').style.display = 'none';
 document.querySelector('#word-div').style.display = 'none';
 document.querySelector('#display-letter').style.display = 'none';
+let newWordList = document.getElementsByClassName('new-related-words');
 
 fetch("http://localhost:3000/alphabet")
     .then((res) => res.json())
     .then((data) => {
-        renderDisplay(data)
-        data.forEach(letter => renderLetters(letter))
+        renderDisplay(data);
+        data.forEach(letter => renderLetters(letter));
     });
 
 function renderLetters(letters) {
-    let letterList = document.getElementById("list-of-letters")
-    let letter = document.createElement('li')
-    letter.textContent = letters.Letter
+    let letterList = document.getElementById("list-of-letters");
+    let letter = document.createElement('li');
+    letter.textContent = letters.Letter;
+    letter.style.margin = 10;
     letter.addEventListener('click', () => letter.style.textDecoration = "line-through");
     letterList.append(letter);
 };
@@ -23,34 +26,45 @@ function renderForm() {
     let form = document.createElement('form');
     form.setAttribute('method', 'post');
     form.setAttribute('action', 'submit');
+    form.className = '.form'
     formDiv.appendChild(form);
 
-    let newWord = document.createElement('input');
-    newWord.setAttribute('type', 'text');
-    newWord.setAttribute('word', 'newWord');
-    newWord.setAttribute('placeholder', 'type a new word');
+    let input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    input.setAttribute('word', 'newWord');
+    input.setAttribute('placeholder', `Type new word here`);
 
     let button = document.createElement("input");
     button.setAttribute("type", "submit");
     button.setAttribute("value", "Submit");
-    form.append(newWord, button);
+    button.className = 'button'
+    form.append(input, button);
 
     form.addEventListener('submit', e => {
         e.preventDefault();
         handleFormSubmission(e.target[0].value);
+        form.reset()
     })
 }
 
 function handleFormSubmission(wordSubmission) {
     let relatedWordList = document.querySelector('#related-word-list');
+    
     let newWordLi = document.createElement('li');
-    newWordLi.innerText = wordSubmissionl;
-    newWordLi.className = 'related-words';
+    newWordLi.innerText = wordSubmission;
+    newWordLi.className = 'new-related-words';
     relatedWordList.append(newWordLi);
+    submitedWord = true;
 }
 
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {
+  
+        if (submitedWord = true) {
+            for (let i = 0; i<newWordList.length; i++) {
+                newWordList[i].remove()
+            }
+        } 
         // Check if the form has already been rendered
         if (!formRendered) {
             renderForm();
@@ -61,9 +75,10 @@ function renderDisplay(letter) {
             let index = e.keyCode - 97;
 
             if (index >= 0 && index <= 25) {
+        
                 document.querySelector('#related-word-list').style.display = 'flex';
                 document.querySelector('#word-div').style.display = 'flex';
-                document.querySelector('#display-letter').style.display = 'flexsdds';
+                document.querySelector('#display-letter').style.display = 'flex';
 
                 let photo = document.querySelector('img');
                 let word = document.querySelector('h3');
@@ -81,8 +96,8 @@ function renderDisplay(letter) {
 
                 photo.addEventListener('mouseover', () => 
                     altText.innerText = letter[index].AltText);
-                photo.addEventListener('mouseout', () => altText.innerText = '')
-            }
-        }
+                photo.addEventListener('mouseout', () => altText.innerText = '');
+            };
+        };
     });
-}
+};
