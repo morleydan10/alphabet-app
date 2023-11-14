@@ -3,6 +3,10 @@ let submitedWord = false;
 document.querySelector('#related-word-list').style.display = 'none';
 document.querySelector('#word-div').style.display = 'none';
 document.querySelector('#display-letter').style.display = 'none';
+
+let imageButton = document.querySelector('.button-on-image')
+imageButton.style.display = 'none'
+
 let newWordList = document.getElementsByClassName('new-related-words');
 
 fetch("http://localhost:3000/alphabet")
@@ -79,11 +83,12 @@ function renderDisplay(letter) {
                 document.querySelector('#related-word-list').style.display = 'flex';
                 document.querySelector('#word-div').style.display = 'flex';
                 document.querySelector('#display-letter').style.display = 'flex';
+                document.querySelector('.button-on-image').style.display = 'flex';
 
                 let photo = document.querySelector('img');
                 let word = document.querySelector('h3');
                 let displayLetter = document.querySelector('.display-letter');
-                let altText = document.querySelector('#p');
+                // let altText = document.querySelector('#p');
                 let liOne = document.querySelector('#li-one');
                 let liTwo = document.querySelector('#li-two');
 
@@ -94,9 +99,14 @@ function renderDisplay(letter) {
                 liOne.innerText = letter[index].RelatedWords[0];
                 liTwo.innerText = letter[index].RelatedWords[1];
 
-                photo.addEventListener('mouseover', () => 
-                    altText.innerText = letter[index].AltText);
-                photo.addEventListener('mouseout', () => altText.innerText = '');
+                imageButton.addEventListener('click', () => {
+                    photo.src = letter[index].livePhoto
+                    imageButton.style.display = 'none'
+                })
+
+                // photo.addEventListener('mouseover', () => 
+                //     altText.innerText = letter[index].AltText);
+                // photo.addEventListener('mouseout', () => altText.innerText = '');
             };
         };
     });

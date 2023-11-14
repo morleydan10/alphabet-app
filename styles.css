@@ -24,10 +24,10 @@ body {
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
-    font-family: Georgia, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 15px;
     color: #241E4E;
   }
@@ -68,7 +68,11 @@ body {
   
   .photo-container {
     text-align: center;
+      position: relative;
+      max-width: 600px; /* Adjust as needed */
+      margin: 0 auto;
   }
+  
   
   .centered-photo {
     max-width: 60%;
@@ -101,7 +105,7 @@ body {
   
   .related-words {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 20px;
@@ -114,7 +118,7 @@ body {
 
   .new-related-words {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 20px;
@@ -125,9 +129,37 @@ body {
     color: #241E4E
   }
 
+  input[type=text] {
+    border: 2px solid #a3333d;
+    border-radius: 4px;
+    margin: 2px;
+  }
+
+  input[type=text]:focus {
+    background-color: #dd8b92;
+    color: white
+  }
+
+  .button {
+    border: 2px solid #a3333d;
+    border-radius: 4px;
+    margin: 2px;
+    background-color: #a3333d;
+    color: white;
+  }
 
 
-
-
-
-
+  .button-on-image {
+    position: absolute;
+    top: -1%;
+    right: 34%; /* Adjust the right distance as needed */
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #6fd08c;
+    color:  #241E4E;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, sans-serif;
+    border: 6px solid #241E4E;
+    border-radius: 6px;
+}
