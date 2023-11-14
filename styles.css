@@ -17,6 +17,7 @@ body {
     font-family: Georgia, serif;
     font-size: 65px;
     letter-spacing: 2px;
+    color: #241E4E;
   }
   
   #list-of-letters {
@@ -28,13 +29,13 @@ body {
     font-weight: bold;
     font-size: 50px;
     letter-spacing: 15px;
+    color: #241E4E;
   }
 
   
-  .photo-container,
-  .text-container {
+  .photo-container {
     max-width: 80%;
-    border: 2px solid #333;
+    border: 8px solid #241E4E;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Adjust the margin as needed */
@@ -43,7 +44,20 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
+  h2 {
+    font-size: 75px;
+    color: #241E4E
+  }
+
+  .display-letter {
+    font-size: 100px;
+    padding: 20px;
+    border: 7px solid #241E4E;
+    border-radius: 8px;
+    background-color: #6fd08c;
+  }
+
   .centered-text {
     font-family: Georgia, serif;
     width: 100%;
@@ -66,13 +80,38 @@ body {
   }
   
   .centered-text {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 100px; /* Adjust the font size as needed */
     margin: 10px 0; /* Adjust the margin as needed */
+    color: #241E4E
   }
-  
-  /* # {
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
-    gap: 40px;
-} */
+  #related-word-div {
+    display: flex;
+    justify-content: center;
+  }
+  .related-word-list {
+    list-style-type: none;
+    padding: 50px;
+    display: flex;
+    flex-direction: row; /* Stack containers vertically */
+    justify-content: center;
+    align-items: center;
+  }
+  .related-words {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    border: 7px solid #241E4E;
+    border-radius: 8px;
+    color: #241E4E
+  }
+
+
+
+
+
+
+
