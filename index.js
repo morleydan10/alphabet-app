@@ -19,7 +19,7 @@ fetch("http://localhost:3000/alphabet")
 function renderLetters(letters) {
     let letterList = document.getElementById("list-of-letters");
     let letter = document.createElement('li');
-    letter.textContent = letters.Letter;
+    letter.textContent = letters.letter;
     letter.style.margin = 10;
     letter.addEventListener('click', () => letter.style.textDecoration = "line-through");
     letterList.append(letter);
@@ -92,13 +92,13 @@ function renderDisplay(letter) {
                 let liOne = document.querySelector('#li-one');
                 let liTwo = document.querySelector('#li-two');
 
-                photo.src = letter[index].Photo;
-                photo.alt = letter[index].AltText;
-                photo.title = letter[index].AltText;
-                word.innerText = letter[index].Word;
-                displayLetter.innerText = letter[index].Letter;
-                liOne.innerText = letter[index].RelatedWords[0];
-                liTwo.innerText = letter[index].RelatedWords[1];
+                photo.src = letter[index].photo;
+                photo.alt = letter[index].altltText;
+                photo.title = letter[index].altText;
+                word.innerText = letter[index].word;
+                displayLetter.innerText = letter[index].letter;
+                liOne.innerText = letter[index].relatedWords[0];
+                liTwo.innerText = letter[index].relatedWords[1];
 
                 imageButton.addEventListener('click', () => {
                     photo.src = letter[index].livePhoto
@@ -115,10 +115,8 @@ function renderDisplay(letter) {
                   // altText.style.left = e.target.clientX + "px";
                   // altText.style.opacity = 1;
                 });
-                photo.addEventListener('mouseout', () => {
-                altText.style.opacity = 0;
-        });
+                // photo.addEventListener('mouseout', () => {
+                // altText.style.opacity = 0;
+}}});
         };
-    }});
-};
 
