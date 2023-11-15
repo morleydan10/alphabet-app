@@ -2,312 +2,312 @@
 "alphabet": [
    {
         "id": 0,
-        "Letter": "A",
-        "Word": "Apple",
-        "Photo": "images/apple.jpg",
+        "letter": "A",
+        "word": "Apple",
+        "photo": "images/apple.jpg",
         "livePhoto": "images/apple2.jpg",
-        "AltText": "Red apple",
-        "RelatedWords": [
+        "altText": "Red apple",
+        "relatedWords": [
             "Avocado",
             "Ace"
         ]
     },
     {
         "id": 1,
-        "Letter": "B",
-        "Word": "Boat",
-        "Photo": "images/boat.jpg",
+        "letter": "B",
+        "word": "Boat",
+        "photo": "images/boat.jpg",
         "livePhoto": "images/boat2.jpg",
-        "AltText": "Orange sailboat on water",
-        "RelatedWords": [
+        "altText": "Orange sailboat on water",
+        "relatedWords": [
             "Banana",
             "Book"
         ]
     },
     {
         "id": 2,
-        "Letter": "C",
-        "Word": "Carrot",
-        "Photo": "images/carrot.jpg",
+        "letter": "C",
+        "word": "Carrot",
+        "photo": "images/carrot.jpg",
         "livePhoto": "images/carrot2.jpg",
-        "AltText": "Carrot with green stem",
-        "RelatedWords": [
+        "altText": "Carrot with green stem",
+        "relatedWords": [
             "Crate",
             "Clean"
         ]
     },
     {
         "id": 3,
-        "Letter": "D",
-        "Word": "Dog",
-        "Photo": "images/dog.jpg",
+        "letter": "D",
+        "word": "Dog",
+        "photo": "images/dog.jpg",
         "livePhoto": "images/dog2.jpg",
-        "AltText": "Gray dog with black ears",
-        "RelatedWords": [
+        "altText": "Gray dog with black ears",
+        "relatedWords": [
             "Dark",
             "Domino"
         ]
     },
     {
         "id": 4,
-        "Letter": "E",
-        "Word": "Elephant",
-        "Photo": "images/elephant.jpg",
+        "letter": "E",
+        "word": "Elephant",
+        "photo": "images/elephant.jpg",
         "livePhoto": "images/elphant2.jpg",
-        "AltText": "Gray elephant",
-        "RelatedWords": [
+        "altText": "Gray elephant",
+        "relatedWords": [
             "Eagle",
             "Ear"
         ]
     },
     {
         "id": 5,
-        "Letter": "F",
-        "Word": "Frog",
-        "Photo": "images/frog.jpg",
+        "letter": "F",
+        "word": "Frog",
+        "photo": "images/frog.jpg",
         "livePhoto": "images/frog2.jpg",
-        "AltText": "Green frog",
-        "RelatedWords": [
+        "altText": "Green frog",
+        "relatedWords": [
             "Fight",
             "Fresh"
         ]
     },
     {
         "id": 6,
-        "Letter": "G",
-        "Word": "Guitar",
-        "Photo": "images/guitar.jpg",
+        "letter": "G",
+        "word": "Guitar",
+        "photo": "images/guitar.jpg",
         "livePhoto": "images/guitar2.jpg",
-        "AltText": "Brown guitar",
-        "RelatedWords": [
+        "altText": "Brown guitar",
+        "relatedWords": [
             "Giraffe",
             "Green"
         ]
     },
     {
         "id": 7,
-        "Letter": "H",
-        "Word": "Hat",
-        "Photo": "images/hat.jpg",
+        "letter": "H",
+        "word": "Hat",
+        "photo": "images/hat.jpg",
         "livePhoto": "images/hat2.jpg",
-        "AltText": "Black top hat",
-        "RelatedWords": [
+        "altText": "Black top hat",
+        "relatedWords": [
             "Helicopter",
             "Heart"
         ]
     },
     {
         "id": 8,
-        "Letter": "I",
-        "Word": "Icecream",
-        "Photo": "images/icecream.jpg",
+        "letter": "I",
+        "word": "Icecream",
+        "photo": "images/icecream.jpg",
         "livePhoto": "images/icecream2.jpg",
-        "AltText": "Icecream in a blue bowl",
-        "RelatedWords": [
+        "altText": "Icecream in a blue bowl",
+        "relatedWords": [
             "Island",
             "Icky"
         ]
     },
     {
         "id": 9,
-        "Letter": "J",
-        "Word": "Jewel",
-        "Photo": "images/jewel.jpg",
+        "letter": "J",
+        "word": "Jewel",
+        "photo": "images/jewel.jpg",
         "livePhoto": "images/jewel2.jpg",
-        "AltText": "Blue jewel",
-        "RelatedWords": [
+        "altText": "Blue jewel",
+        "relatedWords": [
             "Jungle",
             "Jazz"
         ]
     },
     {
         "id": 10,
-        "Letter": "K",
-        "Word": "Kite",
-        "Photo": "images/kite.jpg",
+        "letter": "K",
+        "word": "Kite",
+        "photo": "images/kite.jpg",
         "livePhoto": "images/kite2.jpg",
-        "AltText": "Blue kite with purple string",
-        "RelatedWords": [
+        "altText": "Blue kite with purple string",
+        "relatedWords": [
             "Key",
             "King"
         ]
     },
     {
         "id": 11,
-        "Letter": "L",
-        "Word": "Ladybug",
-        "Photo": "images/ladybug.jpg",
+        "letter": "L",
+        "word": "Ladybug",
+        "photo": "images/ladybug.jpg",
         "livePhoto": "images/ladybug2.jpg",
-        "AltText": "Lady bug with seven spots",
-        "RelatedWords": [
+        "altText": "Lady bug with seven spots",
+        "relatedWords": [
             "Lighthouse",
             "Lion"
         ]
     },
     {
         "id": 12,
-        "Letter": "M",
-        "Word": "Monkey",
-        "Photo": "images/monkey.jpg",
+        "letter": "M",
+        "word": "Monkey",
+        "photo": "images/monkey.jpg",
         "livePhoto": "images/monkey2.jpg",
-        "AltText": "Monkey sitting with curled tail",
-        "RelatedWords": [
+        "altText": "Monkey sitting with curled tail",
+        "relatedWords": [
             "Mountain",
             "Mirror"
         ]
     },
     {
         "id": 13,
-        "Letter": "N",
-        "Word": "Night",
-        "Photo": "images/night.jpg",
+        "letter": "N",
+        "word": "Night",
+        "photo": "images/night.jpg",
         "livePhoto": "images/night2.jpg",
-        "AltText": "Building at night with moon and stars",
-        "RelatedWords": [
+        "altText": "Building at night with moon and stars",
+        "relatedWords": [
             "Nest",
             "North"
         ]
     },
     {
         "id": 14,
-        "Letter": "O",
-        "Word": "Orange",
-        "Photo": "images/orange.jpg",
+        "letter": "O",
+        "word": "Orange",
+        "photo": "images/orange.jpg",
         "livePhoto": "images/orange2.jpg",
-        "AltText": "Orange fruit with green leaf",
-        "RelatedWords": [
+        "altText": "Orange fruit with green leaf",
+        "relatedWords": [
             "Octopus",
             "Ocean"
         ]
     },
     {
         "id": 15,
-        "Letter": "P",
-        "Word": "Pig",
-        "Photo": "images/pig.jpg",
+        "letter": "P",
+        "word": "Pig",
+        "photo": "images/pig.jpg",
         "livePhoto": "images/pig2.jpg",
-        "AltText": "Pink pig face",
-        "RelatedWords": [
+        "altText": "Pink pig face",
+        "relatedWords": [
             "Pizza",
             "Park"
         ]
     },
     {
         "id": 16,
-        "Letter": "Q",
-        "Word": "Queen",
-        "Photo": "images/queen.jpg",
+        "letter": "Q",
+        "word": "Queen",
+        "photo": "images/queen.jpg",
         "livePhoto": "images/queen2.jpg",
-        "AltText": "Crown with jewels",
-        "RelatedWords": [
+        "altText": "Crown with jewels",
+        "relatedWords": [
             "Quilt",
             "Question"
         ]
     },
     {
         "id": 17,
-        "Letter": "R",
-        "Word": "Rat",
-        "Photo": "images/rat.jpg",
+        "letter": "R",
+        "word": "Rat",
+        "photo": "images/rat.jpg",
         "livePhoto": "images/rat2.jpg",
-        "AltText": "Gray rat with pink tail",
-        "RelatedWords": [
+        "altText": "Gray rat with pink tail",
+        "relatedWords": [
             "Rain",
             "Rocket"
         ]
     },
     {
         "id": 18,
-        "Letter": "S",
-        "Word": "Snake",
-        "Photo": "images/snake.jpg",
+        "letter": "S",
+        "word": "Snake",
+        "photo": "images/snake.jpg",
         "livePhoto": "images/snake2.jpg",
-        "AltText": "Green snake with red tongue",
-        "RelatedWords": [
+        "altText": "Green snake with red tongue",
+        "relatedWords": [
             "Sun",
             "Stir"
         ]
     },
     {
         "id": 19,
-        "Letter": "T",
-        "Word": "Tiger",
-        "Photo": "images/tiger.jpg",
+        "letter": "T",
+        "word": "Tiger",
+        "photo": "images/tiger.jpg",
         "livePhoto": "images/tiger2.jpg",
-        "AltText": "Gold tiger face with black stripes",
-        "RelatedWords": [
+        "altText": "Gold tiger face with black stripes",
+        "relatedWords": [
             "Tree",
             "Train"
         ]
     },
     {
         "id": 20,
-        "Letter": "U",
-        "Word": "Umbrella",
-        "Photo": "images/umbrella.jpg",
+        "letter": "U",
+        "word": "Umbrella",
+        "photo": "images/umbrella.jpg",
         "livePhoto": "images/umbrella2.jpg",
-        "AltText": "Purple umbrella",
-        "RelatedWords": [
+        "altText": "Purple umbrella",
+        "relatedWords": [
             "Unicorn",
             "Universe"
         ]
     },
     {
         "id": 21,
-        "Letter": "V",
-        "Word": "Vest",
-        "Photo": "images/vest.jpg",
+        "letter": "V",
+        "word": "Vest",
+        "photo": "images/vest.jpg",
         "livePhoto": "images/vest2.jpg",
-        "AltText": "Orange and yellow vest",
-        "RelatedWords": [
+        "altText": "Orange and yellow vest",
+        "relatedWords": [
             "Volcano",
             "Valley"
         ]
     },
     {
         "id": 22,
-        "Letter": "W",
-        "Word": "Watch",
-        "Photo": "images/watch.jpg",
+        "letter": "W",
+        "word": "Watch",
+        "photo": "images/watch.jpg",
         "livePhoto": "images/watch2.jpg",
-        "AltText": "Black wrist watch",
-        "RelatedWords": [
+        "altText": "Black wrist watch",
+        "relatedWords": [
             "Wave",
             "Wind"
         ]
     },
     {
         "id": 23,
-        "Letter": "X",
-        "Word": "X",
-        "Photo": "images/x.jpg",
+        "letter": "X",
+        "word": "X",
+        "photo": "images/x.jpg",
         "livePhoto": "images/x2.jpg",
-        "AltText": "Black 'X'",
-        "RelatedWords": [
+        "altText": "Black 'X'",
+        "relatedWords": [
             "Xylophone",
             "X-ray"
         ]
     },
     {
         "id": 24,
-        "Letter": "Y",
-        "Word": "Yolk",
-        "Photo": "images/yolk.jpg",
+        "letter": "Y",
+        "word": "Yolk",
+        "photo": "images/yolk.jpg",
         "livePhoto": "images/yolk2.jpg",
-        "AltText": "Egg with yellow yolk in pan",
-        "RelatedWords": [
+        "altText": "Egg with yellow yolk in pan",
+        "relatedWords": [
             "Yellow",
             "Yarn"
         ]
     },
     {
         "id": 25,
-        "Letter": "Z",
-        "Word": "Zebra",
-        "Photo": "images/zebra.jpg",
+        "letter": "Z",
+        "word": "Zebra",
+        "photo": "images/zebra.jpg",
         "livePhoto": "images/zebra2.jpg",
-        "AltText": "Black and white zebra face",
-        "RelatedWords": [
+        "altText": "Black and white zebra face",
+        "relatedWords": [
             "Zoo",
             "Zombie"
         ]
