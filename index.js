@@ -94,6 +94,7 @@ function renderDisplay(letter) {
 
                 photo.src = letter[index].Photo;
                 photo.alt = letter[index].AltText;
+                photo.title = letter[index].AltText;
                 word.innerText = letter[index].Word;
                 displayLetter.innerText = letter[index].Letter;
                 liOne.innerText = letter[index].RelatedWords[0];
@@ -118,6 +119,6 @@ function renderDisplay(letter) {
                 altText.style.opacity = 0;
         });
         };
-    });
+    }});
 };
 
