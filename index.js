@@ -93,7 +93,11 @@ function renderDisplay(letter) {
                 let liTwo = document.querySelector('#li-two');
 
                 photo.src = letter[index].photo;
+<<<<<<< HEAD
                 photo.alt = letter[index].altText;
+=======
+                photo.alt = letter[index].altltText;
+>>>>>>> 17b712507e9bf2f82bebed41d757faf516b9c186
                 photo.title = letter[index].altText;
                 word.innerText = letter[index].word;
                 displayLetter.innerText = letter[index].letter;
@@ -115,10 +119,8 @@ function renderDisplay(letter) {
                   // altText.style.left = e.target.clientX + "px";
                   // altText.style.opacity = 1;
                 });
-                photo.addEventListener('mouseout', () => {
-                altText.style.opacity = 0;
-        });
+                // photo.addEventListener('mouseout', () => {
+                // altText.style.opacity = 0;
+}}});
         };
-    }});
-};
 
