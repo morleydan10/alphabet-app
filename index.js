@@ -103,11 +103,21 @@ function renderDisplay(letter) {
                     photo.src = letter[index].livePhoto
                     imageButton.style.display = 'none'
                 })
-
-                // photo.addEventListener('mouseover', () => 
-                //     altText.innerText = letter[index].AltText);
-                // photo.addEventListener('mouseout', () => altText.innerText = '');
-            };
+                photo.addEventListener('mouseover', (e) => {
+            
+                  let tooltipContent = photo.title
+                  e.mouseover = tooltipContent
+                  // let tooltipContent = e.target.getAttribute('alt')
+                  // altText.innerHTML = tooltipContent
+                  // altText.style.display = "block";
+                  // altText.style.top = e.target.clientY + "px";
+                  // altText.style.left = e.target.clientX + "px";
+                  // altText.style.opacity = 1;
+                });
+                photo.addEventListener('mouseout', () => {
+                altText.style.opacity = 0;
+        });
         };
     });
 };
+
