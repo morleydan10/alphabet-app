@@ -4,8 +4,8 @@ document.querySelector('#related-word-list').style.display = 'none';
 document.querySelector('#word-div').style.display = 'none';
 document.querySelector('#display-letter').style.display = 'none';
 
-let imageButton = document.querySelector('.button-on-image')
-imageButton.style.display = 'none'
+let imageButton = document.querySelector('.button-on-image');
+imageButton.style.display = 'none';
 
 let newWordList = document.getElementsByClassName('new-related-words');
 
@@ -36,24 +36,23 @@ function renderForm() {
     let input = document.createElement('input');
     input.setAttribute('type', 'text');
     input.setAttribute('word', 'newWord');
-    input.setAttribute('placeholder', `Type new word here`);
+    input.setAttribute('placeholder', 'Type new word here');
 
     let button = document.createElement("input");
     button.setAttribute("type", "submit");
     button.setAttribute("value", "Submit");
-    button.className = 'button'
+    button.className = 'button';
     form.append(input, button);
 
     form.addEventListener('submit', e => {
         e.preventDefault();
         handleFormSubmission(e.target[0].value);
-        form.reset()
+        form.reset();
     })
 }
 
 function handleFormSubmission(wordSubmission) {
-    let relatedWordList = document.querySelector('#related-word-list');
-    
+    let relatedWordList = document.querySelector('#related-word-list'); 
     let newWordLi = document.createElement('li');
     newWordLi.innerText = wordSubmission;
     newWordLi.className = 'new-related-words';
@@ -68,8 +67,8 @@ function renderDisplay(letter) {
             for (let i = 0; i<newWordList.length; i++) {
                 newWordList[i].remove()
             }
-        } 
-        // Check if the form has already been rendered
+        }
+        
         if (!formRendered) {
             renderForm();
             formRendered = true;
@@ -88,16 +87,11 @@ function renderDisplay(letter) {
                 let photo = document.querySelector('img');
                 let word = document.querySelector('h3');
                 let displayLetter = document.querySelector('.display-letter');
-                // let altText = document.querySelector('#p');
                 let liOne = document.querySelector('#li-one');
                 let liTwo = document.querySelector('#li-two');
 
                 photo.src = letter[index].photo;
-<<<<<<< HEAD
                 photo.alt = letter[index].altText;
-=======
-                photo.alt = letter[index].altltText;
->>>>>>> 17b712507e9bf2f82bebed41d757faf516b9c186
                 photo.title = letter[index].altText;
                 word.innerText = letter[index].word;
                 displayLetter.innerText = letter[index].letter;
@@ -109,18 +103,10 @@ function renderDisplay(letter) {
                     imageButton.style.display = 'none'
                 })
                 photo.addEventListener('mouseover', (e) => {
-            
-                  let tooltipContent = photo.title
-                  e.mouseover = tooltipContent
-                  // let tooltipContent = e.target.getAttribute('alt')
-                  // altText.innerHTML = tooltipContent
-                  // altText.style.display = "block";
-                  // altText.style.top = e.target.clientY + "px";
-                  // altText.style.left = e.target.clientX + "px";
-                  // altText.style.opacity = 1;
-                });
-                // photo.addEventListener('mouseout', () => {
-                // altText.style.opacity = 0;
-}}});
-        };
+                    let tooltipContent = photo.title
+                    e.mouseover = tooltipContent
+            });
+        }}
+    });
+};
 
