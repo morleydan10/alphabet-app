@@ -41,19 +41,22 @@ function renderDisplay(letter) {
       if (index >= 0 && index <= 25) {
         photo.src = letter[index].Photo;
         photo.alt = letter[index].AltText;
+        photo.title = letter[index].AltText;
         word.innerText = letter[index].Word;
         displayLetter.innerText = letter[index].Letter
         liOne.innerText = letter[index].RelatedWords[0]
         liTwo.innerText = letter[index].RelatedWords[1]
 
         photo.addEventListener('mouseover', (e) => {
-
-            let tooltipContent = e.target.getAttribute('alt')
-            altText.innerHTML = tooltipContent
-            altText.style.top = e.target.pageY + "px";
-            altText.style.left = e.target.pageX + "px";
-            altText.style.opacity = 1;
             
+            let tooltipContent = photo.title
+            e.mouseover = tooltipContent
+            // let tooltipContent = e.target.getAttribute('alt')
+            // altText.innerHTML = tooltipContent
+            // altText.style.display = "block";
+            // altText.style.top = e.target.clientY + "px";
+            // altText.style.left = e.target.clientX + "px";
+            // altText.style.opacity = 1;
         });
     };
         photo.addEventListener('mouseout', () => {
