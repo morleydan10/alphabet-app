@@ -17,25 +17,35 @@ body {
     font-family: Schoolbell;
     font-size: 70px;
     letter-spacing: 4px;
+    color: #241E4E;
+  }
+
+  h1 {
+    margin: 5px;
   }
   
   #list-of-letters {
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
+
     font-family: Schoolbell;
     list-style-type: none;
     font-weight: bold;
     font-size: 60px;
     letter-spacing: 30px;
+    color: #241E4E;
+    cursor: pointer;
+  }
 
+  h2 {
+    margin: 0px;
   }
 
   
-  .photo-container,
-  .text-container {
+  .photo-container {
     max-width: 80%;
-    border: 2px solid #333;
+    border: 8px solid #241E4E;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Adjust the margin as needed */
@@ -44,7 +54,21 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
+  #word-div {
+    display:flex;
+  }
+
+  #display-letter {
+    display: flex;
+    margin: 0px;
+  }
+
+  .display-letter {
+    font-size: 50px;
+    color: #241E4E
+  }
+
   .centered-text {
     font-family: Schoolbell;
     width: 100%;
@@ -55,11 +79,15 @@ body {
   
   .photo-container {
     text-align: center;
+      position: relative;
+      max-width: 600px; /* Adjust as needed */
+      margin: 0 auto;
   }
   
+  
   .centered-photo {
-    max-width: 80%;
-    max-height: 80vh;
+    max-width: 60%;
+    max-height: 50vh;
   }
   
   .text-container {
@@ -67,10 +95,28 @@ body {
   }
   
   .centered-text {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 50px; /* Adjust the font size as needed */
     margin: 10px 0; /* Adjust the margin as needed */
+    color: #241E4E
+  }
+
+  #related-word-div {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .related-word-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row; /* Stack containers vertically */
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
   }
   
+
   /* #alt-text-div {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
@@ -86,3 +132,70 @@ body {
     margin: 10px;
     z-index: 99999;
   } */
+
+.related-words {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px;
+    margin-bottom: 10px;
+    border: 7px solid #241E4E;
+    border-radius: 8px;
+    color: #241E4E
+  }
+
+  .new-related-words {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 8px;
+    margin-bottom: 10px;
+    border: 7px solid #241E4E;
+    border-radius: 8px;
+    color: #241E4E
+  }
+
+  input[type=text] {
+    border: 2px solid #241E4E;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #EADAA2;
+    color: #241E4E;
+  }
+
+  input[type=text]:focus {
+    border: 2px solid #241E4E;
+    border-radius: 4px;
+    
+  }
+
+  .button {
+    border: 2px solid #241E4E;
+    border-radius: 4px;
+    margin: 2px;
+    background-color:#241E4E;
+    color: white;
+  }
+
+
+  .button-on-image {
+    padding: 7px;
+    color: #241E4E;
+    border: none;
+    cursor: pointer;
+    font-family: Verdana, sans-serif;
+    font-size: 10px;
+    border: 2px solid #241E4E;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
