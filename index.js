@@ -25,31 +25,13 @@ function renderLetters(letters) {
     letterList.append(letter);
 };
 
-function renderForm() {
-    let formDiv = document.querySelector("#input-form");
-    let form = document.createElement('form');
-    form.setAttribute('method', 'post');
-    form.setAttribute('action', 'submit');
-    form.className = '.form'
-    formDiv.appendChild(form);
 
-    let input = document.createElement('input');
-    input.setAttribute('type', 'text');
-    input.setAttribute('word', 'newWord');
-    input.setAttribute('placeholder', 'Type new word here');
-
-    let button = document.createElement("input");
-    button.setAttribute("type", "submit");
-    button.setAttribute("value", "Submit");
-    button.className = 'button';
-    form.append(input, button);
-
-    form.addEventListener('submit', e => {
+form.addEventListener('submit', e => {
         e.preventDefault();
         handleFormSubmission(e.target[0].value);
         form.reset();
-    })
-}
+})
+
 
 function handleFormSubmission(wordSubmission) {
     let relatedWordList = document.querySelector('#related-word-list'); 
@@ -67,11 +49,6 @@ function renderDisplay(letter) {
             for (let i = 0; i<newWordList.length; i++) {
                 newWordList[i].remove()
             }
-        }
-        
-        if (!formRendered) {
-            renderForm();
-            formRendered = true;
         }
 
         if (e.target.tagName.toLowerCase() !== 'input') {
