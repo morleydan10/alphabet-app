@@ -1,10 +1,9 @@
 let formRendered = false;
 let submitedWord = false;
-
+let newWordList = document.getElementsByClassName('new-related-words');
+let footerPhoto = document.querySelector('.footer-image')
 let imageButton = document.querySelector('.button-on-image');
 imageButton.style.display = 'none';
-
-let newWordList = document.getElementsByClassName('new-related-words');
 
 fetch("http://localhost:3000/alphabet")
     .then((res) => res.json())
@@ -39,8 +38,7 @@ function handleFormSubmission(wordSubmission) {
 
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {
-        form.style.display = 'block';
-  
+
         if (submitedWord = true) {
             for (let i = 0; i<newWordList.length; i++) {
                 newWordList[i].remove()}};
@@ -53,6 +51,8 @@ function renderDisplay(letter) {
                 document.querySelector('#word-div').style.display = 'flex';
                 document.querySelector('#display-letter').style.display = 'flex';
                 document.querySelector('.button-on-image').style.display = 'flex';
+                form.style.display = 'block';
+                footerPhoto.style.display = 'flex'
 
                 let photo = document.querySelector('img');
                 let word = document.querySelector('h3');

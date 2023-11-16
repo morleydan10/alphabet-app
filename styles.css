@@ -180,7 +180,7 @@ body {
 }
 
 .footer-image {
-  display: flex;
+  display: none;
   padding: 10px;
   min-width: 50vw;
 }
