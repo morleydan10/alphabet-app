@@ -76,7 +76,9 @@ function renderDisplay(letter) {
                     let tooltipContent = photo.title;
                     e.mouseover = tooltipContent;
                 });
-            };
+            } else {
+                alert('Oops! Remember to press letters only.')
+            }
         };
     });
 };
