@@ -8,6 +8,7 @@ let imageButton = document.querySelector('.button-on-image');
 imageButton.style.display = 'none';
 
 let newWordList = document.getElementsByClassName('new-related-words');
+let form = document.querySelector('#form')
 
 fetch("http://localhost:3000/alphabet")
     .then((res) => res.json())
@@ -44,6 +45,7 @@ function handleFormSubmission(wordSubmission) {
 
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {
+        form.style.display = 'block'
   
         if (submitedWord = true) {
             for (let i = 0; i<newWordList.length; i++) {

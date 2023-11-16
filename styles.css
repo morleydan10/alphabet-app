@@ -15,7 +15,7 @@ body {
   #title-div {
     font-weight: 400px;
     font-family: 'Schoolbell';
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: 4px;
     color: #241E4E;
   }
@@ -28,11 +28,10 @@ body {
     display: inline-flex;
     justify-content: space-between;
     flex-direction: row;
-
     font-family: 'Schoolbell';
     list-style-type: none;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 30px;
     color: #241E4E;
     cursor: pointer;
@@ -80,7 +79,7 @@ body {
   .photo-container {
     text-align: center;
       position: relative;
-      max-width: 600px; /* Adjust as needed */
+      max-width: 400px; /* Adjust as needed */
       margin: 0 auto;
   }
   
@@ -144,20 +143,13 @@ body {
     color: #241E4E
   }
 
-  input[type=text] {
+  .input {
     border: 2px solid #241E4E;
     border-radius: 4px;
     margin-bottom: 10px;
     background-color: #EADAA2;
     color: #241E4E;
     font-family: 'Schoolbell';
-  }
-
-  input[type=text]:focus {
-    font-family: 'Schoolbell';
-    border: 2px solid #241E4E;
-    border-radius: 4px;
-    
   }
 
   .button {
