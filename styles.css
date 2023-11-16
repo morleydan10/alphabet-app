@@ -44,7 +44,7 @@ body {
     border: 8px solid #241E4E;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px; 
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -61,8 +61,8 @@ body {
   }
 
   .display-letter {
-    font-size: 50px;
-    color: #241E4E
+    font-size: 90px;
+    color: #241E4E;
   }
 
   .centered-text {
@@ -76,7 +76,7 @@ body {
   .photo-container {
     text-align: center;
       position: relative;
-      max-width: 400px; /* Adjust as needed */
+      max-width: 600px; /* Adjust as needed */
       margin: 0 auto;
   }
   
@@ -140,7 +140,8 @@ body {
   }
 
   .input {
-    border: 2px solid #241E4E;
+    font-size: 20px;
+    border: 3px solid #241E4E;
     border-radius: 4px;
     margin-bottom: 10px;
     background-color: #EADAA2;
@@ -148,7 +149,8 @@ body {
     font-family: 'Schoolbell';
   }
 
-  .button {
+  .submit-button {
+    font-size: 20px;
     font-family: 'Schoolbell';
     border: 2px solid #241E4E;
     border-radius: 4px;
@@ -157,14 +159,13 @@ body {
     color: white;
   }
 
-
   .button-on-image {
     padding: 7px;
     color: #241E4E;
     border: none;
     cursor: pointer;
     font-family: 'Schoolbell';
-    font-size: 14px;
+    font-size: 18px;
     border: 2px solid #241E4E;
     border-radius: 6px;
     position: absolute;

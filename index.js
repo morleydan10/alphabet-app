@@ -28,7 +28,6 @@ form.addEventListener('submit', e => {
         form.reset();
 })
 
-
 function handleFormSubmission(wordSubmission) {
     let relatedWordList = document.querySelector('#related-word-list'); 
     let newWordLi = document.createElement('li');
