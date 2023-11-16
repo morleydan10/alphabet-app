@@ -1,8 +1,5 @@
 let formRendered = false;
 let submitedWord = false;
-document.querySelector('#related-word-list').style.display = 'none';
-document.querySelector('#word-div').style.display = 'none';
-document.querySelector('#display-letter').style.display = 'none';
 
 let imageButton = document.querySelector('.button-on-image');
 imageButton.style.display = 'none';
