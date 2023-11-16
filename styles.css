@@ -185,3 +185,7 @@ body {
     transform: translateX(-50%);
 }
 
+#form {
+  display: none;
+}
+
