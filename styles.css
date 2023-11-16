@@ -30,7 +30,7 @@ body {
     list-style-type: none;
     font-weight: bold;
     font-size: 40px;
-    letter-spacing: 30px;
+    gap: 30px;
     color: #241E4E;
     cursor: pointer;
   }
@@ -157,7 +157,7 @@ body {
     margin: 2px;
     background-color:#241E4E;
     color: white;
-  }
+    }
 
   .button-on-image {
     padding: 7px;
