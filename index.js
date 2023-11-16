@@ -44,6 +44,9 @@ function handleFormSubmission(wordSubmission) {
 
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {
+
+        let form = document.querySelector('#form')
+        form.style.display = 'block'
   
         if (submitedWord = true) {
             for (let i = 0; i<newWordList.length; i++) {
