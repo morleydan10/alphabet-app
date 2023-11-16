@@ -39,17 +39,16 @@ function handleFormSubmission(wordSubmission) {
 
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {
-        form.style.display = 'block'
+        form.style.display = 'block';
   
         if (submitedWord = true) {
             for (let i = 0; i<newWordList.length; i++) {
-                newWordList[i].remove()}}
+                newWordList[i].remove()}};
 
         if (e.target.tagName.toLowerCase() !== 'input') {
             let index = e.keyCode - 97;
 
             if (index >= 0 && index <= 25) {
-        
                 document.querySelector('#related-word-list').style.display = 'flex';
                 document.querySelector('#word-div').style.display = 'flex';
                 document.querySelector('#display-letter').style.display = 'flex';
@@ -70,14 +69,15 @@ function renderDisplay(letter) {
                 liTwo.innerText = letter[index].relatedWords[1];
 
                 imageButton.addEventListener('click', () => {
-                    photo.src = letter[index].livePhoto
-                    imageButton.style.display = 'none'
-                })
+                    photo.src = letter[index].livePhoto;
+                    imageButton.style.display = 'none';
+                });
                 photo.addEventListener('mouseover', (e) => {
-                    let tooltipContent = photo.title
-                    e.mouseover = tooltipContent
-            });
-        }}
-    }) 
+                    let tooltipContent = photo.title;
+                    e.mouseover = tooltipContent;
+                });
+            };
+        };
+    });
 };
 
