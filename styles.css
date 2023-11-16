@@ -175,6 +175,12 @@ body {
 }
 
 #form {
+  padding-top: 20px;
   display: none;
 }
 
+.footer-image {
+  display: flex;
+  padding: 10px;
+  min-width: 50vw;
+}
