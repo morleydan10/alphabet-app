@@ -5,7 +5,6 @@ let imageButton = document.querySelector('.button-on-image');
 imageButton.style.display = 'none';
 
 let newWordList = document.getElementsByClassName('new-related-words');
-let form = document.querySelector('#form')
 
 fetch("http://localhost:3000/alphabet")
     .then((res) => res.json())
@@ -18,12 +17,11 @@ function renderLetters(letters) {
     let letterList = document.getElementById("list-of-letters");
     let letter = document.createElement('li');
     letter.textContent = letters.letter;
-    letter.style.margin = 10;
     letter.addEventListener('click', () => letter.style.textDecoration = "line-through");
     letterList.append(letter);
 };
 
-
+let form = document.querySelector('#form')
 form.addEventListener('submit', e => {
         e.preventDefault();
         handleFormSubmission(e.target[0].value);
@@ -46,9 +44,7 @@ function renderDisplay(letter) {
   
         if (submitedWord = true) {
             for (let i = 0; i<newWordList.length; i++) {
-                newWordList[i].remove()
-            }
-        }
+                newWordList[i].remove()}}
 
         if (e.target.tagName.toLowerCase() !== 'input') {
             let index = e.keyCode - 97;
@@ -83,6 +79,6 @@ function renderDisplay(letter) {
                     e.mouseover = tooltipContent
             });
         }}
-    });
+    }) 
 };
 
