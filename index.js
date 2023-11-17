@@ -36,7 +36,8 @@ function handleFormSubmission(wordSubmission) {
     newWordLi.className = 'new-related-words';
     relatedWordList.append(newWordLi);
     submitedWord = true;
-}
+};
+
 function renderDisplay(letter) {
     document.addEventListener('keypress', e => {       
         if (submitedWord) {
@@ -79,7 +80,7 @@ function renderDisplay(letter) {
                     let tooltipContent = photo.title;
                     e.mouseover = tooltipContent;
                 });     
-            }
-        }
-    })
-}
+            };
+        };
+    });
+};
