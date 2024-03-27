@@ -84,3 +84,19 @@ function renderDisplay(letter) {
         };
     });
 };
+
+let soundButton = document.getElementById("sound-button")
+
+
+soundButton.addEventListener('click', () => {
+    renderSound(letter);
+    speechSynthesis.speak(utterance);
+    });
+
+function renderSound(letter) {    
+    let msg = letter.sound
+    let utterance = new SpeechSynthesisUtterance(msg);
+    utterance.pitch = 1;
+    utterance.rate = .50;
+    utterance.volume = 1;
+};
